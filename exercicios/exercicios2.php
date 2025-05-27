@@ -1,8 +1,8 @@
 <?php
    echo "Vamos calcular um volume, ";
-   $comprimento = 19;
-   $largura = 2;
-   $altura = 3;
+   $comprimento = $_POST ["comprimento"];
+   $largura = $_POST ["largura"];
+   $altura = $_POST ["altura"];
    $volume = ($comprimento * $largura * $altura);
 
    echo "O volume é: $volume <br>";

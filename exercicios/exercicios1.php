@@ -1,8 +1,8 @@
 <?php
    echo "Calculo de consumo medio  ";
-   $distancia = 16;
-   $quantide = 50;
-   $consumo = ($distancia / $quantide);
+   $distancia = $_POST ["distancia"];
+   $quantidade = $_POST ["quantidade"];
+   $consumo = ($distancia / $quantidade);
 
    echo "O consumo é: $consumo <br>";
 
